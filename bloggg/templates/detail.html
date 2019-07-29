@@ -1,0 +1,42 @@
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">두번째 과제
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="{% url 'log'%}">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">##</a>
+          <a class="nav-item nav-link" href="#">##</a>
+          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">###</a>
+        </div>
+      </div>
+    </nav>
+    <br><br><br><br>
+
+
+<h1>자세한 본문 내용<h1>
+<br>
+
+
+<h3>제목 :{{detail.title}}</h3>
+<p> 날짜 : {{detail.pub_date}}<p>
+<p> 본문 : {{detail.body}}<p>
+   
+  <br>
+<br>
+
+
+
+
+
+
+</body>
